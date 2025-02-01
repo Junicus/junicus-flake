@@ -4,13 +4,16 @@
     ./chromium.nix
     ./eza.nix
     ./git.nix
+    ./lazygit.nix
     ./hyprland
     ./waybar
+    ./swaync
+    ./wofi
     ./neovim.nix
     ./starship.nix
     ./stylix.nix
+    ./ranger.nix
     ./tmux.nix
-    ./wofi
     ./zsh.nix
   ];
 }
