@@ -7,6 +7,7 @@
       "$terminal" = "alacritty";
       "$fileManager" = "$terminal -e sh -c 'ranger'";
       "$menu" = "wofi";
+      monitor = ",preferred,auto,1";
 
       exec-once = [
         "waybar"
