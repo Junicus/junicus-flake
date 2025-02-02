@@ -9,7 +9,7 @@
     extraConfig = ''
     '';
     plugins = with pkgs; [
-      tmuxPlugins.gruvbox
+      tmuxPlugins.catppuccin
     ];
   };
 }

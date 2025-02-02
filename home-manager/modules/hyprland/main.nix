@@ -4,7 +4,7 @@
     systemd.enable = true;
     settings = {
       "$mainMod" = "SUPER";
-      "$terminal" = "alacritty";
+      "$terminal" = "kitty";
       "$fileManager" = "$terminal -e sh -c 'ranger'";
       "$menu" = "wofi";
       monitor = ",preferred,auto,1";
