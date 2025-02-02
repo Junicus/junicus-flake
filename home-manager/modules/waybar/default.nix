@@ -9,7 +9,7 @@
         height = 30;
         modules-left = ["hyprland/workspaces"];
         modules-center = ["hyprland/window"];
-        modules-right = ["hyprland/language" "custom/weather" "pulseaudio" "battery" "clock" "tray"];
+        modules-right = ["pulseaudio" "battery" "clock" "tray"];
         "hyprland/workspaces" = {
           disable-scroll = true;
           show-special = true;
@@ -34,23 +34,8 @@
           };
         };
 
-        "hyprland/language" = {
-          format-en = "🇺🇸";
-          format-ru = "🇷🇺";
-          format-he = "🇮🇱";
-          min-length = 5;
-          tooltip = false;
-        };
-
-        "custom/weather" = {
-          format = " {} ";
-          exec = "curl -s 'wttr.in/Tashkent?format=%c%t'";
-          interval = 300;
-          class = "weather";
-        };
-
         "pulseaudio" = {
-          format = "{icon} {volume}%";
+          format = "{icon}  {volume}%";
           format-bluetooth = "{icon} {volume}% ";
           format-muted = "";
           format-icons = {
@@ -70,7 +55,7 @@
             warning = 30;
             critical = 1;
           };
-          format = "{icon} {capacity}%";
+          format = "{icon}  {capacity}%";
           format-charging = " {capacity}%";
           format-alt = "{time} {icon}";
           format-icons = ["" "" "" "" ""];
