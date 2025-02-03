@@ -10,7 +10,7 @@
     ./waybar
     ./swaync
     ./wofi
-    ./neovim.nix
+    ./nixvim
     ./ranger.nix
     ./starship.nix
     ./stylix.nix

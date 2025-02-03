@@ -10,6 +10,11 @@
     };
 
     stylix.url = "github:danth/stylix/release-24.11";
+
+    nixvim = {
+      url = "github:nix-community/nixvim/nixos-24.11";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: 

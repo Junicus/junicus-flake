@@ -9,5 +9,7 @@
 
   networking.hostName = hostname;
 
+  services.openssh.enable = true;
+
   system.stateVersion = stateVersion;
 }
