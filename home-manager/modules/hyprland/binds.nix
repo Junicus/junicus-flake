@@ -37,6 +37,16 @@
       "$mainMod CTRL, down,  resizeactive,  0  60"
 
       # Switching workspaces
+      "$mainMod SHIFT, left, swapwindow, l"
+      "$mainMod SHIFT, right, swapwindow, r"
+      "$mainMod SHIFT, up, swapwindow, u"
+      "$mainMod SHIFT, down, swapwindow, d"
+
+      "$mainMod CTRL, left, resizeactive, -60 0"
+      "$mainMod CTRL, right, resizeactive, 60 0"
+      "$mainMod CTRL, up, resizeactive, 0 -60"
+      "$mainMod CTRL, down, resizeactive, 0 60"
+
       "$mainMod, 1, workspace, 1"
       "$mainMod, 2, workspace, 2"
       "$mainMod, 3, workspace, 3"
@@ -65,7 +75,6 @@
       "$mainMod SHIFT, S, movetoworkspace, special:magic"
     ];
 
-    # Move/resize windows with mainMod + LMB/RMB and dragging
     bindm = [
       "$mainMod, mouse:272, movewindow"
       "$mainMod, mouse:273, resizewindow"

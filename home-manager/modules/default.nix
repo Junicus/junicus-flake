@@ -11,6 +11,7 @@
     ./swaync
     ./wofi
     ./neovim.nix
+    ./ranger.nix
     ./starship.nix
     ./stylix.nix
     ./ranger.nix

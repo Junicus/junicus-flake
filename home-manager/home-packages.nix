@@ -3,9 +3,11 @@
 
   home.packages = with pkgs; [
     # CLI utils
+    brightnessctl
     btop
     fzf
     microfetch
+    playerctl
     ripgrep
     wget
 
