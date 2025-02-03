@@ -14,6 +14,7 @@
     ./timezone.nix
     ./user.nix
     ./gnome.nix
+    ./virtualisation.nix
     ./zram.nix
   ];
 }
