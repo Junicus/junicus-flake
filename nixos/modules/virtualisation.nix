@@ -8,13 +8,13 @@
 
       defaultNetwork.settings.dns_enabled = true;
     };
-
-    environment.systemPackages = with pkgs; [
-      podman-compose
-      podman-tui
-
-      docker-compose
-      lazidocker
-    ];
   };
+
+  environment.systemPackages = with pkgs; [
+    podman-compose
+    podman-tui
+
+    docker-compose
+    lazydocker
+  ];
 }

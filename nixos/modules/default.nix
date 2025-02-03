@@ -11,6 +11,7 @@
     ./net.nix
     ./nh.nix
     ./nix.nix
+    ./gc.nix
     ./timezone.nix
     ./user.nix
     ./gnome.nix
