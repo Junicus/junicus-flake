@@ -3,6 +3,9 @@
     ./alpha.nix
     ./neo-tree.nix
     ./lsp.nix
+    ./telescope.nix
+    ./which-key.nix
+    ./indent-blankline.nix
   ];
 
   programs.nixvim = {
