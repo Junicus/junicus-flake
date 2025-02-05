@@ -16,6 +16,7 @@
     ./user.nix
     ./gnome.nix
     ./virtualisation.nix
+    ./containers.nix
     ./zram.nix
   ];
 }
