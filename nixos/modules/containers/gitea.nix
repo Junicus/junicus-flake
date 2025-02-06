@@ -17,7 +17,7 @@ in
         USER_GID = "1000";
       };
       volumes = [
-        "/home/junicus/gitea:/data"
+        "/home/junicus/Data/gitea:/data"
         #"/etc/timezone:/etc/timezone:ro"
         #"/etc/localtime:/etc/localtime:ro"
       ];
