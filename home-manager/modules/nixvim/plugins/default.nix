@@ -1,4 +1,4 @@
-{ lib, config, ... }: {
+{
   imports = [
     ./alpha.nix
     ./neo-tree.nix
@@ -6,6 +6,9 @@
     ./telescope.nix
     ./which-key.nix
     ./indent-blankline.nix
+    ./lualine.nix
+    ./bufferline.nix
+    ./tmux-navigator.nix
   ];
 
   programs.nixvim = {
@@ -23,6 +26,8 @@
 
       nvim-autopairs.enable = true;
 
+      comment.enable = true;
+      
 #      colorizer = {
 #        enable = true;
 #        settings.user_default_options.names = false;
