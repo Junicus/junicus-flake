@@ -1,4 +1,4 @@
-{
+{ pkgs, ... }: {
   services = {
     xserver = {
       enable = true;
@@ -6,8 +6,14 @@
       desktopManager.gnome.enable = true;
       xkb = {
         layout = "us";
-	variant = "";
+        variant = "";
       };
+    };
+
+    xrdp = {
+      enable = true;
+      defaultWindowManager = "${pkgs.gnome.gnome-session}/bin/gnome-session";
+      openFirewall = true;
     };
   };
 }
