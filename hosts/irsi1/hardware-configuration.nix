@@ -24,6 +24,12 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
+  fileSystems."/mnt/usb" =
+    { device = "/dev/disk/by-uuid/3D31-4497";
+      fsType = "auto";
+      options = [ "defaults" "user" "rw" "utf8" "noauto" "umask=000" ];
+    };
+
   swapDevices =
     [ { device = "/dev/disk/by-uuid/b59fcef0-f688-4d30-a297-aed7144bfdd7"; }
     ];
